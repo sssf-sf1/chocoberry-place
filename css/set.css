@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.breadcrumbs {
+    padding: 15px 0;
+    font-size: 14px;
+    color: #555;
+}
+.breadcrumbs a {
+    color: #d14f6d;
+    text-decoration: none;
+}
+
+.page-header {
+    padding: 30px 0;
+    text-align: center;
+}
+.page-title {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.page-subtitle {
+    font-size: 16px;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.product-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+    transition: 0.2s;
+}
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-image {
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: center;
+}
+
+.product-info {
+    padding: 18px;
+}
+
+.product-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.product-btn {
+    width: 100%;
+    padding: 12px;
+    background: #d14f6d;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.product-btn:hover {
+    background: #b93d5b;
+}
+
+.horizontal-filters {
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+.filters-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.filters-title {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.filter-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.apply-filters,
+.reset-filters {
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+}
+
+.apply-filters {
+    background: #e63946;
+    color: white;
+}
+
+.reset-filters {
+    background: #f1f1f1;
+    color: #333;
+}
+
+.filter-sections {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.filter-group label {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.filter-group input[type="checkbox"] {
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.filter-group input[type="number"],
+.filter-group select {
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
