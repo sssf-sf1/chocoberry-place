@@ -1,0 +1,12 @@
+body{font-family:Arial,sans-serif;margin:20px;background:#fff5f5;color:#333}
+h1,h2,h3{color:#b30000}
+ul.menu{list-style:none;padding:0}
+ul.menu li{display:inline-block;margin-right:10px}
+form{margin-bottom:20px}
+input,textarea,select{display:block;margin-bottom:10px;padding:5px;width:300px}
+button{padding:5px 10px;background:#b30000;color:#fff;border:none;cursor:pointer}
+button:hover{background:#e60000}
+table{border-collapse:collapse;width:100%}
+table,th,td{border:1px solid #b30000}
+th,td{padding:5px;text-align:left}
+.error{color:red}
